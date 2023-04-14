@@ -1,1 +1,1 @@
-# CSC196W
+# CSC 196W Assignments
