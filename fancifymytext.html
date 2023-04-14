@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<!-- link to your script file here -->
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+
+
+		<!-- Your UI controls go here -->
+		<form>
+            <fieldset style="display:inline-block;">
+                <legend>Text</legend>
+                <textarea rows ="4" cols ="30" name = "text" id="text"></textarea>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset style="display:inline-block;">
+                <legend>Fancify</legend>
+                <ul class = "input label button">
+                    <button name ="bigger" onclick="biggerBtn()">Bigger!</button>
+                    <input type ="radio" id = "fancy" name = "option" value = "fancy">
+                    <label for="fancy">FancyShmancy</label>
+                    <input type ="radio" id = "boring" name = "option" value = boring>
+                    <label for="fancy">BoringBetty</label>
+                </ul>
+            </fieldset>
+        </form>
+	</body>
+</html>
